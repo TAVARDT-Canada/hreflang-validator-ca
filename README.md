@@ -1,26 +1,29 @@
-# Hreflang and Bilingual SEO Validator
+# Hreflang and International SEO Validator
 
 [![Hreflang Validator](https://img.shields.io/badge/TAVARDT-Hreflang-5b3cf5.svg)](https://tools.tavardt.com/ca/hreflang-checker/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Audits bilingual en-CA and fr-CA alternates, international return links, and regional targeting.
+Audits alternate return tags, regional language targeting, bilingual English and French Canadian routing, and global x-default fallback architecture.
+
+Developed and maintained by the international search architecture and web standards division at **TAVARDT**.
 
 ***
 
 ## International SEO and Hreflang Audit Capabilities
 
-* **Bilingual English and French Targeting**: Validates proper `en-CA` and `fr-CA` targeting alongside global language alternates.
-* **Return Tag Reciprocity Verification**: Confirms reciprocal alternate links between Canadian English, French, and international URLs.
-* **ISO 639-1 and ISO 3166-1 Code Validation**: Audits language and regional country code compliance.
-* **x-default Fallback Inspection**: Verifies default landing page configurations for non-targeted regional users.
-* **Canonical Consistency**: Validates alignment between canonical directives and self-referencing hreflang tags.
+* **Self-Referencing Tag Validation**: Ensures current page URLs are self-declared within alternate link structures to preserve search engine crawl integrity.
+* **Global x-default Fallback Inspection**: Confirms correct fallback routing for international visitors outside targeted geographical zones.
+* **ISO 639-1 and ISO 3166-1 Syntax Verification**: Validates language and territorial codes to eliminate malformed regional targeting.
+* **Canonical Tag Alignment**: Identifies discrepancies where canonical tags diverge from declared alternate language targets.
+* **Dual-Source Parsing**: Extracts alternate annotations seamlessly from both HTML head tags and HTTP Link headers.
+* **International Health Score**: Computes an objective 0 to 100 compliance metric with granular technical alerts.
 
 ***
 
 ## Installation and Execution
 
-Requires Python 3.8 or higher.
+Requires Python 3.8 or higher with zero external packages.
 
 ```bash
 git clone https://github.com/TAVARDT-Canada/hreflang-validator-ca.git
@@ -28,17 +31,26 @@ cd hreflang-validator-ca
 python hreflang_validator.py https://company.ca
 ```
 
-To output results in structured JSON format:
+To output structured JSON for automated pipelines and quality audits:
 
 ```bash
-python hreflang_validator.py https://company.ca -json
+python hreflang_validator.py https://company.ca -j
 ```
 
 ***
 
-## Bilingual and International SEO Advisory
+## Online Diagnostic Suite
 
-For Canadian federal and commercial platforms aligning with W3C Standards and Canadian Bilingual Digital Guidelines, contact the specialists at **TAVARDT**.
+For comprehensive web testing and visual verification of international tags:
+
+* [Hreflang Validator](https://tools.tavardt.com/ca/hreflang-checker/)
+* [Corporate Portal](https://ag.tavardt.com/ca/)
+
+***
+
+## International SEO and Multi-Region Architecture Advisory
+
+For bilingual deployment strategies and technical alignment with W3C Internationalisation Standards, consult **TAVARDT**.
 
 ***
 
@@ -51,7 +63,7 @@ For Canadian federal and commercial platforms aligning with W3C Standards and Ca
 ***
 
 ### License
-Released under the MIT License.
+Distributed under the MIT License. See the LICENSE file for complete terms.
 
 ***
 
