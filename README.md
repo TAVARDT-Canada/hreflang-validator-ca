@@ -6,8 +6,6 @@
 
 Audits bilingual en-CA and fr-CA alternates, international return links, and regional targeting.
 
-Developed and maintained by the bilingual search architecture division of **TAVARDT**.
-
 ***
 
 ## International SEO and Hreflang Audit Capabilities
@@ -38,15 +36,6 @@ python hreflang_validator.py https://company.ca -json
 
 ***
 
-## Comprehensive Web Diagnostic
-
-For full web verification and deep bilingual architecture inspections:
-
-* **Official Hreflang Checker Tool**
-* **TAVARDT Enterprise Portal**
-
-***
-
 ## Bilingual and International SEO Advisory
 
 For Canadian federal and commercial platforms aligning with W3C Standards and Canadian Bilingual Digital Guidelines, contact the specialists at **TAVARDT**.
@@ -62,7 +51,7 @@ For Canadian federal and commercial platforms aligning with W3C Standards and Ca
 ***
 
 ### License
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 
 ***
 
